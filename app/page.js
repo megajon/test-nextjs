@@ -11,7 +11,7 @@ export default function Home() {
       <DatePicker
         selected={startDate}
         onChange={(date) => setStartDate(date)}
-        customInput={<input readOnly />}
+        customInput={<input readonly />}
       />
     </div>
   );
